@@ -1,0 +1,119 @@
+.expanded {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.slider {
+	position: relative;
+	width: 100%;
+}
+
+.predictions  a {
+	position: relative;
+	font-size: 12pt;
+	line-height: 1.5;
+	color: lightgrey;
+}
+
+.anchor {
+	padding-top: 300px; 
+	margin-top: -300px;
+}
+
+.TDS0 {
+	color: #5189c7;
+}
+
+.TDS1 {
+	color: #e8b058;
+}
+
+.TDS2 {
+	color: #2aa412;
+}
+
+.ATT {
+	color: red;
+}
+
+.TDS0, .TDS1, .TDS2, .ATT {
+	font-weight:bold !important;
+}
+
+.deconv_hidden {
+	display: none;
+}
+
+#next_button {
+	position: absolute;
+	left: -2em;
+}
+
+#next_button_anchor {
+	position: absolute;
+}
+
+.faded-out, .inter {
+	opacity:0.2;
+}
+
+#tools a {
+	color: #448e44;
+}
+
+#sentences {
+	cursor: context-menu;
+}
+
+.passage {
+	text-align: left;
+}
+
+.passage-action {
+	text-align: right;
+}
+
+.passage-action a {
+		color:#008cba;
+}
+
+.hyperdeep-nav {
+	font-size: 10pt;
+}
+
+.select_item:HOVER {
+	cursor: pointer;
+}
+
+#thresholds{
+	display:table;
+	width:100%;
+}
+
+.threshold 
+{
+    display:table-row;
+}
+.threshold label
+{
+    text-align:left;
+    display:table-cell;
+}
+
+.threshold input
+{
+    text-align:left;
+    display:table-cell;
+}
+
+#multibarlist-svg {
+	width: 100%;
+	height: 500px;
+}
+
+.select_item:HOVER {
+	font-weight: bold;
+}

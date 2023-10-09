@@ -1,0 +1,27 @@
+{
+	"nb_channels": 3,
+	"MODEL": "HYB",
+	"SEQUENCE_SIZE": 470,
+	"vocab_size_force": [-1,-1,-1],
+	"plot": 1,
+	"STRIDE": "HALF",
+	"FILTERS": [],
+	"EMBEDDING_DIM": [128,128,16],
+	"EMBEDDING_TRAINABLE": 1,
+	"W2VEC": -1,
+	"HIDDEN_SIZE": [
+		[32,32,32]
+	],
+	"KERNEL_SIZE": [
+		[6,9,9]
+	],
+	"DROPOUT_VAL": 0.3,
+	"DENSE_SIZE": 100,
+	"NUM_EPOCHS": 10,
+	"BATCH_SIZE": 64,
+	"LEARNING_RATE": 0.0001,
+	"VALIDATION_SPLIT": 0.1,
+	"TESTING_SPLIT": 0.1,
+	"SOFTMAX_BREAKDOWN": 0,
+	"CLASSES": ["full_or_partial_PTSD_0", "full_or_partial_PTSD_1"]
+}

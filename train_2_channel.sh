@@ -1,0 +1,1 @@
+python3 mct.py train -train /home/robin/Code_repo/PTSD_analysis/data/hyperdeep/full_or_partial_PTSD_43_512/train_2_channels.txt -test /home/robin/Code_repo/PTSD_analysis/data/hyperdeep/full_or_partial_PTSD_43_512/test_2_channels.txt -val /home/robin/Code_repo/PTSD_analysis/data/hyperdeep/full_or_partial_PTSD_43_512/val_2_channels.txt -output bin/PTSD_2_channel

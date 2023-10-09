@@ -4,8 +4,7 @@
 .DS_Store
 
 # DATA
-data/*
-!data/Campagne2017*
+
 
 # RESULTS
 results/*
